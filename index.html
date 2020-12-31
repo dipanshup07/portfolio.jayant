@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=width-device, initial-scale=1.0">
+		<title>Jayant Portfolio</title>
+		<link rel="stylesheet" 
+		href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+		integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+
+		 <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+
+	<body>
+		<header>
+            <div class="logo">
+                <img src="jb.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Skills</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Projects</a></li>
+                    <li class="nav__item"><a href="3d-LZH.html" class="nav__link">3D Prints</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact me</a></li>
+                 </ul>
+                    <aside class="c-nav_aside">
+				<ul class="c-nav_social">
+				<li class="c-nav_social_item">
+					<a class="c-nav_social_link" href="https://www.instagram.com/shi_mi_gami/" target="_blank">
+						<svg class="c-nav_social_icon" role="img" title="Instagram"><use href="#instagram" fill="white"/></svg>
+					</a>
+				</li>
+				<li class="c-nav_social_item">
+					<a class="c-nav_social_link" href="https://www.linkedin.com/in/jayant-bhanse-a601b5194/" target="_blank">
+						<svg class="c-nav_social_icon" role="img" title="LinkedIn"><use xlink:href="linkedin.svg#social-linkedin"></use>
+						</svg>
+					</a>
+				</li>
+				<li class="c-nav_social_item">
+					<a class="c-nav_social_link" href="https://twitter.com" target="_blank">
+						<svg class="c-nav_social_icon" role="img" title="twitter"><use xlink:href="twitter.svg"></use></svg>
+					</a>
+				</li>
+				<li class="c-nav_social_item">
+					<a class="c-nav_social_link" href="https://github.com" target="_blank">
+						<svg class="c-nav_social_icon" role="img" title="github"><use xlink:href="github-logo.svg"></use>
+						</svg>
+					</a>
+				</li>
+             
+				</ul>
+				</aside>
+                
+            </nav>
+        </header>
+
+
+         <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hello World, <strong>I'm Jayant</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Geek | Learner | Maker</p>
+            <img src="jayant.jpg" alt="Jayant smiling" class="intro__img">
+        </section>
+
+
+         <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">Skills and Competencies</h2>
+            <div class="services">
+                <div class="service">
+                    <p>I am currently pursuing BE in Electrical Engineering. I work in cybersecurity, ethical hacking, IoT, robotics, automation domains. Also, I exploit bugs. I am currently getting my hands-on training of coding and software development. My projects have been my substantial accomplishment. </p>
+                    <p>Please have a look and explore the space. </p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Projects</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">About me</h2>
+           <p class="section__subtitle section__subtitle--about">An inquisitive tech-enthusiast</p>
+           
+           <div class="about-me__body">
+               <p>Breaking and making things has always been my favorite activity since I was a kid. Even  today, I have been diving deeper into the world of technology. I am passionate about science and computers from a very young age. I am peculiar about space & stars, and avid learner of physics. Forgetting about the world, being in a messy room, and engrossed in building projects is favourite part of my life. In my free time, I play with my arduino and raspberry pi aka my kinda toys! Apart from this, I'm a freelance video editor and gamer. </p>
+               <p>Discover & befriend my friends and feel free to get in touch with me!</p>
+           </div>
+           
+           <img src="jayant2.png" alt="Jayant standing" class="about-me__img" style="max-width: 100%;">
+        </section>
+        
+        <!-- 3D prints -->
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 style="padding-top: 20px;">My Projects</h2>
+             
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <figure class="portfolio-item">
+                <img src="portfolio-01.jpg" alt="" class="portfolio-image">
+                <figcaption>
+                    <h2 class="portfolio-title">Project Name</h2>
+                    <a href="portfolio-item.html" class="portfolio-link"> More info...</a>
+                </figcaption>
+           
+                <!-- Portfolio modal 1 -->
+                <div class="portfolio-modal">
+                <button class="modal-close">
+                <svg x="0px" y="0px" viewBox="0 0 30 17" height="17" width="30">
+                <g transform="translate(-15 -15)">
+                <polygon class="st0" points="31.2,23.5 37,29.3 35.8,30.5 30,24.7 24.2,30.5 23,29.3 28.8,23.5 23,17.7 24.2,16.5 30,22.3 35.8,16.5 37,17.7   "/>
+                </g>
+                </svg>
+                </button>
+                </div>
+                </figure>
+                
+                
+                <!-- Portfolio item 02 -->
+                <figure class="portfolio-item">
+                <img src="portfolio-02.jpg" alt="" class="portfolio-image">
+                <figcaption>
+                    <h2 class="portfolio-title">Project Name</h2>
+                    <a href="portfolio-item2.html" class="portfolio-link"> More info...</a>
+                </figcaption>
+           
+                <!-- Portfolio modal 2 -->
+                <div class="portfolio-modal">
+                <button class="modal-close">
+                <svg x="0px" y="0px" viewBox="0 0 30 17" height="17" width="30">
+                <g transform="translate(-15 -15)">
+                <polygon class="st0" points="31.2,23.5 37,29.3 35.8,30.5 30,24.7 24.2,30.5 23,29.3 28.8,23.5 23,17.7 24.2,16.5 30,22.3 35.8,16.5 37,17.7   "/>
+                </g>
+                </svg>
+                </button>
+                </div>
+                </figure>
+                
+                <!-- Portfolio item 03 -->
+                <figure class="portfolio-item">
+                <img src="portfolio-03.jpg" alt="" class="portfolio-image">
+                <figcaption>
+                    <h2 class="portfolio-title">Project Name</h2>
+                    <a href="portfolio-item3.html" class="portfolio-link"> More info...</a>
+                </figcaption>
+           
+                <!-- Portfolio modal 3 -->
+                <div class="portfolio-modal">
+                <button class="modal-close">
+                <svg x="0px" y="0px" viewBox="0 0 30 17" height="17" width="30">
+                <g transform="translate(-15 -15)">
+                <polygon class="st0" points="31.2,23.5 37,29.3 35.8,30.5 30,24.7 24.2,30.5 23,29.3 28.8,23.5 23,17.7 24.2,16.5 30,22.3 35.8,16.5 37,17.7   "/>
+                </g>
+                </svg>
+                </button>
+                </div>
+                </figure>
+
+                <!-- Portfolio item 04 -->
+                <figure class="portfolio-item">
+                <img src="portfolio-04.jpg" alt="" class="portfolio-image">
+                <figcaption>
+                    <h2 class="portfolio-title">Project Name</h2>
+                    <a href="portfolio-item4.html" class="portfolio-link"> More info...</a>
+                </figcaption>
+           
+                <!-- Portfolio modal 4 -->
+                <div class="portfolio-modal">
+                <button class="modal-close">
+                <svg x="0px" y="0px" viewBox="0 0 30 17" height="17" width="30">
+                <g transform="translate(-15 -15)">
+                <polygon class="st0" points="31.2,23.5 37,29.3 35.8,30.5 30,24.7 24.2,30.5 23,29.3 28.8,23.5 23,17.7 24.2,16.5 30,22.3 35.8,16.5 37,17.7   "/>
+                </g>
+                </svg>
+                </button>
+                </div>
+                </figure>
+                <p>...more projects on the way!!!</p>
+                
+            </div>
+        </section>
+
+        <!-- Form -->
+
+        <section class="contact" id="contact">
+      <h2>Drop a message!</h2>
+      <form action="mailto:samiraj8255@gmail.com” method=”POST” enctype="multipart/form-data”>
+              <label class="name" class="name">Name:
+            <input type="text" id="name">
+        </label>
+        
+        <label class="email" class="email">Email:
+          <input type="email" id="email">
+        </label>
+
+        <label message="message" class="message">Message:
+          <textarea name="" id="message"></textarea>
+        </label>
+    
+        <input class="button form-button" type="submit" value="SEND">
+      </form>
+    </section>
+
+        
+         <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:jayantbhanse111@gmail.com" class="footer__link"> jayantbhanse111@gmail.com </a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                	<a class="social-list__link" href="https://www.instagram.com/shi_mi_gami/"> 
+                		<i class="fab fa-instagram"></i>
+                	</a>
+                </li>
+
+                <li class="social-list__item">
+                	<a class="social-list__link" href="https://www.linkedin.com/in/jayant-bhanse-a601b5194/"> 
+                		<i class="fab fa-linkedin"></i>
+                	</a>
+                </li>
+
+                <li class="social-list__item">
+                	<a class="social-list__link" href="https://twitter.com"> 
+                		<i class="fab fa-twitter"></i>
+                	</a>
+                </li>
+
+                <li class="social-list__item">
+                	<a class="social-list__link" href="https://github.com">
+                		<i class="fab fa-github"></i>
+                	</a>
+                </li>
+
+            </ul>
+             <a class="copy-link">Copyright &#169 2020 Jayant Bhanse</a>
+        </footer>
+
+         <script src="index.js"></script>
+         <script src="modal.js"></script>
+
+	</body>
+</html>
